@@ -1,0 +1,809 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+/* FONT */
+body{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* NAVBAR */
+.navbar{
+    margin-left: -90px;
+    background-color: #007CBD;
+    display: flex; 
+    padding: 10px 100px;
+    align-items: center;
+    gap: 202px;
+}
+
+.navIcon{
+    margin-right: -90px;
+}
+
+.nav-link{
+    margin-right: 25px;
+    color: white; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.nav-link:hover{
+    color: white; 
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: rgb(255 255 255);
+}
+
+.tombolRegister{
+    width: 121px; 
+    height: 37px; 
+    padding: 10px 30px;
+    background: white; 
+    border-radius: 100px; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    display: inline-flex;
+    text-decoration: none;
+
+    /* TEXTNYA */
+    color: #007CBD;
+    font-size: 14px; 
+    font-weight: 650;
+}
+
+.tombolRegister:hover{
+    color: #007CBD;
+}
+
+
+/* JUMBOTRON */
+.jumbotron{    
+    background-image: url(asset/jumbotron/jumbotron2.jpg);
+    background-position: 36% 20%;
+    background-size: cover;
+    width: 100%;
+    height: 736px;
+    text-align: left;
+    position: relative;
+}
+
+.jumbotron .container{
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron::after{
+    content:'';
+    display: block;
+    width: 100%;
+    height: 3%;
+    background-image:linear-gradient(to top, rgba(255, 255, 255, 0.9), rgba(241, 241, 241, 0));
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbotron .display-4{
+    color: white;
+    padding-top: 180px;
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.spanSatu{
+    display: block;
+    margin-top: 16px;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.spanDua{
+    display: block;
+    margin-top: -14px;
+    margin-bottom: 30px;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.tombolJumbotron{
+    margin-left: 10px;
+    padding: 16px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #3EB7DD;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* ABOUT */
+
+.about{
+    padding: 100px 5px;
+    background: #F4FBFF;
+}
+
+.videoAbout img:first-child{
+    width: 100%;
+}
+
+.iconPlay{
+    margin: -34% 33% 30% 46%;
+}
+
+
+.about .container .row h3{
+    color: #007CBD;
+    margin-top: 15px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about .container .row .paragraph{
+    color: #1B1E28;
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;    
+}
+
+.about .container .row .iconAbout{
+    color: #007CBD;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+/* MEKANISME */
+.mekanisme {
+    width: 100%;
+    height: 1800px;
+    background-image: url(asset/mekanisme/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mekanisme .container .boxSatu{
+    width: 300px;
+}
+
+.mekanisme .container .boxSatu h1{
+    padding: 0;
+    margin-left: -16px;
+    margin-top: 155px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.mekanismeRegistrasi{
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 35px 25px 25px 25px;
+    margin-top: 25px;
+}
+
+.mekanismeRegistrasiDua{
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 35px 25px 25px 25px;
+    margin-top: 25px;
+}
+
+.mekanismeRegistrasi h2{
+    color: #007CBD;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.mekanismeRegistrasiDua h2{
+    color: #007CBD;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#tglMekanisme{
+    color: #007CBD;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.logoImg{
+    background: linear-gradient(319deg, #007CBD 0%, #3EB7DD 100%);
+    display: flex;
+    width: 55px;
+    height: 54px;
+    border-radius: 50px;
+    padding: 12px;
+    line-height: 54px;
+}
+
+.kolomLogo{
+    padding: 0px 5px 0px 0px;
+}
+
+.kolomTeks{
+    padding-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.teksMekanisme p{
+    margin-top: -15px;
+    color: #1B1E28;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.teksMekanisme p a{
+    text-decoration: none;
+    color: #3EB7DD;
+}
+
+.teksMekanisme p:first-child{
+    margin-top: 3px;
+}
+
+/* RUNNING LOGO */
+.runningLogo{
+    height: 500px;
+    background: #F4FBFF;
+}
+
+.teksLogo{
+    width: 331px;
+    padding-top: 82px;
+    padding-bottom: 50px;
+}
+
+.teksLogo h1{
+    color: #007CBD;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+@keyframes run{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.runLogo{
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.logo{
+    display: inline-block;
+    animation: 10s run infinite linear;
+}
+
+.kotak{
+    background-color: white;
+    width: 291px;
+    height: 144px;
+    display: inline-block;
+    line-height: 144px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.kotak img{
+    width: 216;
+}
+
+.tombolRunningLogo{
+    margin-top: 50px;
+    width: 225px;
+}
+
+
+/* AGGREGATOR */
+.aggregator{
+    height: 1930px;
+    background: #F4FBFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.aggregator h1{
+    text-align: center;
+    color: #007CBD;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 0px;
+}
+
+.aggregatorKolom{
+    display: grid;
+    place-items: center;
+}
+
+.aggregatorRow{
+    gap: 50px;
+    margin-left: 0;
+}
+
+.aggregatorRow img{
+    width: 308px;
+    height: 186px;
+}
+
+.aggregatorRow h3{
+    display: inline-block;
+    width: 308px;
+    color: #1B1E28;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.aggregatorRow p{
+    display: inline-block;
+    width: 308px;
+    color: #7A7B7E;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: -15px;
+    margin-bottom: 0px;
+}
+
+
+/* FOOTER */
+.footer{
+    height: 2248x;
+    background: #007CBD;
+    padding: 57px 36px;
+}
+
+.footer p{
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.logoFooter{
+    margin-bottom: 30px;
+}
+
+.iconFooter{
+    display: flex;
+    gap: 30px;
+    margin-right: 49px;
+}
+
+.iconFooter img{
+    width: 21px;
+    height: 21px;
+}
+
+.hrFooter{
+    padding: 0 20px;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.copyright p{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+@media (min-width: 576px){
+
+
+    .aggregator{
+        height: 486px;
+    }
+
+    .aggregatorRow{
+        gap: 35px;
+    }
+
+    .aggregatorRow h3{
+        width: 158px;
+        font-size: 10px;
+        margin-top: 15px;
+        margin-bottom: 0;
+        margin-left: -24px;
+    }
+
+    .aggregatorRow p{
+        width: 158px;
+        font-size: 8px;
+        margin-top: -15px;
+        margin-bottom: 0px;
+        margin-left: -24px;
+    }
+
+    .hoverZoom{
+        display: inline-block;
+        width: 158px;
+        height: 86px;
+        margin-left: -24px;
+        overflow: hidden;
+        border-radius: 7px;
+    }
+
+    .hoverZoom img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-left: 0px;
+        transition: 0.2s;
+    }
+
+    .hoverZoom:hover img{
+        transform: scale(1.07);
+        
+    }
+}
+
+
+
+
+@media (min-width: 765px){
+    .jumbotron{    
+        text-align: center;
+        position: relative;
+    }
+
+    .jumbotron .container{
+        padding: 0 20px;
+    }
+    
+    .about{
+        padding: 100px 100px;
+    }
+
+    .spanSatu{
+        display: block;
+        margin-top: 16px;
+        font-weight: 800;
+        font-size: 48px;
+    }
+
+    .mekanisme{
+        height: 1500px;
+    }
+
+    .mekanisme .container .boxSatu{
+        width: 500px;
+    }
+
+    .mekanismeRegistrasi{
+        width: 500px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 35px 25px 25px 25px;
+        margin-top: 25px;
+    }
+
+    .mekanismeRegistrasiDua{
+        width: 500px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 35px 25px 25px 25px;
+        margin-top: 25px;
+    }
+
+    .mekanismeRegistrasiDua h2{
+        color: #007CBD;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .teksLogo{
+        width: 631px;
+        padding-top: 82px;
+        padding-bottom: 50px;
+    }
+    
+    .teksLogo h1{
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .aggregator{
+        height: 595px;
+    }
+    
+    .aggregator h1{
+        text-align: start;
+        margin-left: 25px;
+    }
+
+    .aggregatorKolom{
+        display: block;
+        text-align: start;
+    }
+
+    .aggregatorRow{
+        gap: 50px;
+        margin-left: 0px;
+    }
+
+    .aggregatorRow h3{
+        width: 215px;
+        margin-top: 15px;
+        margin-left: -25px;
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+
+    .aggregatorRow p{
+        font-size: 12px;
+        margin-top: 0px;
+        margin-left: -25px;
+        margin-bottom: 0px;
+        width: 200px;
+    }
+
+    .hoverZoom{
+        width: 215px;
+        height: 120px;
+        margin-left: -25px;
+    }
+}
+
+
+
+
+@media (min-width: 992px){
+    .navbar{
+        margin-left: 0;
+        display: flex; 
+        padding: 10px 100px;
+        align-items: center;
+        gap: 202px;
+    }
+
+    .navIcon{
+        margin-right: 0;
+    }
+
+    .jumbotron{    
+        height: 1024px;
+    }
+
+    .tombolJumbotron{
+        padding: 12px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .jumbotron .display-4{
+        padding-top: 380px;
+        font-weight: 600;
+        font-size: 24px;
+        padding-left: 40px;
+    }
+
+    .spanSatu{
+        display: block;
+        margin-top: 16px;
+        font-weight: 800;
+        font-size: 48px;
+    }
+
+    .spanDua{
+        display: block;
+        margin-top: -14px;
+        margin-bottom: 30px;
+        color: #FFF;
+        font-size: 14px;
+        padding: 0 210px;
+    }
+
+    .about{
+        padding: 100px 50px;
+    }
+
+    .kolomTeks{
+        padding-left: 35px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    #tglMekanisme{
+        text-align: end;
+        padding-bottom: 0px;
+    }
+    
+    .mekanisme{
+        height: 1250px;
+    }
+
+    .aggregator{
+        height: 746px;
+    }
+
+    .aggregator h1{
+        text-align: start;
+        margin-left: -40px;
+    }
+
+    .teksMekanisme p{
+        margin-top: -15px;
+    }
+
+    .aggregatorRow{
+        margin-left: -10px;
+    }
+
+    .aggregatorRow h3{
+        width: 268px;
+        margin-left: 0;
+        margin-bottom: 0;
+        font-size: 13px;
+    }
+
+    .aggregatorRow p{
+        width: 268px;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .hoverZoom{
+        width: 268px;
+        height: 156px;
+        margin-left: 0;
+    }
+}
+
+
+
+
+@media (min-width: 1350px){
+    .about{
+        padding: 100px 197px;
+    }
+
+    .mekanismeRegistrasi{
+        width: 751px;
+        border-radius: 10px;
+        padding: 35px 25px 25px 25px;
+        margin-top: 25px;
+    }
+
+    .mekanismeRegistrasiDua{
+        width: 751px;
+        border-radius: 10px;
+        padding: 35px 25px 25px 25px;
+        margin-top: 25px;
+        background-color: white;
+    }
+
+    .mekanismeRegistrasi:hover{
+        color: rgba(255, 255, 255, 0.597);
+        box-shadow: 0px 4px 8px 2px;
+        transition: 0.1s;
+        height: 190px;
+    }
+
+    .mekanismeRegistrasiDua:hover{
+        color: rgba(255, 255, 255, 0.597);
+        box-shadow: 0px 4px 8px 2px;
+        transition: 0.1s;
+        height: 230px;
+    }
+
+    .mekanismeRegistrasiDua h2{
+        color: #007CBD;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .mekanisme{
+        height: 1100px;
+    }
+
+    .mekanisme .container .boxSatu{
+        width: 751px;
+    }
+
+    .aggregator h1{
+        text-align: start;
+        margin-left: -40px;
+    }
+
+    .aggregatorRow{
+        gap: 50px;
+        margin-left: 0px;
+    }
+
+    .aggregatorRow img{
+        width: 320px;
+        height: 186px;
+    }
+
+    .aggregatorRow h3{
+        width: 320px;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+    
+    .aggregatorRow p{
+        width: 320px;
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 0px;
+    }
+
+    .hoverZoom{
+        width: 320px;
+        height: 186px;
+    }
+
+
+    /* FOOTER */
+    .footer{
+        height: 2248x;
+        padding: 30px 49px;
+    }
+
+    .footer p{
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .hrFooter{
+        margin-top: 0px;
+    }
+
+    .copyright p{
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 1401px){
+    .aggregatorRow img{
+        width: 348px;
+        height: 196px;
+    }
+
+    .aggregatorRow h3{
+        width: 348px;
+    }
+
+    .hoverZoom{
+        width: 348px;
+        height: 196px;
+    }
+
+}

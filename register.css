@@ -1,0 +1,509 @@
+/* FONT */
+body{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: #F4FBFF;
+}
+
+/* NAVBAR */
+.navbar{
+    margin-left: 0px;
+    background-color: #007CBD;
+    display: flex; 
+    padding: 10px 100px;
+    align-items: center;
+    gap: 202px;
+}
+
+.navIcon{
+    margin-right: -90px;
+}
+
+.nav-link{
+    margin-right: 25px;
+    color: white; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.nav-link:hover{
+    color: white; 
+}
+
+.tombolRegister{
+    width: 121px; 
+    height: 37px; 
+    padding: 10px 30px;
+    background: white; 
+    border-radius: 100px; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    display: inline-flex;
+    text-decoration: none;
+
+    /* TEXTNYA */
+    color: #007CBD;
+    font-size: 14px; 
+    font-weight: 650;
+}
+
+.tombolRegister:hover{
+    color: #007CBD;
+}
+
+/* JUMBOTRON */
+.jumbotron{    
+    background-image: url(asset/register/head.png);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron .display-4{
+    color: white;
+    padding-top: 180px;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+/* FORM */
+.fontUtama{
+    font-size: 12px;
+    color: #071424;
+    font-weight: 400;
+    line-height: 44px;
+}
+
+
+.infoRegistrasi{
+    border-radius: 16px;
+    margin-top: -146px;
+    position: relative;
+    background-color: white;
+    padding: 30px 30px;
+}
+
+.row{
+    padding-top: 20px;
+}
+
+.namaEmailNotelp{
+    width: 6300px;
+    height: 44px;
+    border-radius: 8px;
+    background: #F8F8F8;
+}
+
+.infoRegistrasi span{
+    color: #F00;
+}
+
+.pAngka{
+    color: #828282;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0;
+    margin-top: 8px;
+    margin-left: -22px;
+}
+
+.pAngka p{
+    height: 0px;
+}
+
+.tentangPerusahaan{
+    width: 630px;
+    height: 120px;
+    border-radius: 8px;
+    background: #F8F8F8;
+}
+
+.uploadFileLogo{
+    width: 300px;
+    height: 200px;
+    padding: 0;
+    margin-left: 2px;
+}
+
+.uploadFileLogo img{
+    width: 100%;
+    height: 100%;
+}
+
+.uploadFileLogo p{
+    position: relative;
+    text-align: center;
+    margin: -50px 0 0 0;
+}
+
+.aturanUpload{
+    width: 280px;
+    height: 100px;
+}
+
+.aturanUpload p{
+    color: #000;
+    padding: 20px 0 70px 14px;
+    line-height: 18px;
+}
+
+.profilPerusahaan{
+    width: 600px;
+    height: 44px;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin-top: 40px;
+}
+
+.uploadFileProfil{
+    width: 60px;
+    height: 44px;
+    border-radius: 8px;
+    background: #007CBD;
+    position: absolute;
+    right: 20px;
+    margin-top: 40px;
+}
+
+.uploadFileProfil p{
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.teksPelengkap{
+    color: #828282;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 0;
+    margin-left: -22px;
+    margin-top: 8px;
+}
+
+.teksPelengkap p{
+    height: 0px;
+}
+
+.kotakKecil{
+    width: 14px;
+    height: 14px;
+    border-radius: 2px;
+    background: #C4C4C4;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+
+.teksSyarat{
+    height: 0;
+    margin: 20px;
+}
+
+.teksSyarat p{
+    color: #071424;
+    font-size: 9px;
+    line-height: normal;
+    margin-left: 0px;
+    margin-top: -40px;
+}
+
+.tombolRegisterDua{
+    width: 250px;
+    height: 49px;
+    border-radius: 5px;
+    background: #007CBD;
+}
+
+.tombolRegisterDua p{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 3px;
+}
+
+
+/* FOOTER */
+.footer{
+    margin-top: 77px;
+    background: #007CBD;
+    padding: 30px 36px;
+}
+
+.footer p{
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.logoFooter{
+    margin-bottom: 30px;
+}
+
+.iconFooter{
+    display: flex;
+    gap: 30px;
+    margin-right: 49px;
+}
+
+.iconFooter img{
+    width: 21px;
+    height: 21px;
+}
+
+.hrFooter{
+    padding: 0 20px;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.copyright p{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+@media (min-width: 576px){
+    .profilPerusahaan{
+        width: 600px;
+        height: 44px;
+        border-radius: 8px;
+        background: #F8F8F8;
+        margin-top: 0px;
+    }
+    
+    .uploadFileProfil{
+        width: 160px;
+        height: 44px;
+        border-radius: 8px;
+        background: #007CBD;
+        position: absolute;
+        right: 20px;
+        margin-top: 0px;
+    }
+    
+    .uploadFileProfil p{
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+
+    /* UPLOAD LOGO */
+
+    .uploadFileLogo{
+        width: 200px;
+        height: 200px;
+        padding: 0;
+        margin-left: 40px;
+    }
+    
+    .uploadFileLogo img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .uploadFileLogo p{
+        position: relative;
+        text-align: center;
+        margin: -40px 0 0 0;
+    }
+    
+    .aturanUpload{
+        width: 280px;
+        height: 120px;
+    }
+    
+    .aturanUpload p{
+        padding: 20px 0 0px 14px;
+        line-height: 16px; 
+        margin-left: 20px;
+    }
+
+    .teksPelengkap p{
+        height: 0px;
+        margin: 0;
+    }
+
+    /* SYARAT */
+    .kotakKecil{
+        width: 14px;
+        height: 14px;
+        border-radius: 2px;
+        margin-left: -10px;
+        margin-top: 0px;
+        display: inline-block;
+        margin-top: 20px;
+    }
+    
+    .teksSyarat{
+        height: 0;
+        margin: 20px;
+        padding-top: 0px;
+    }
+    
+    .teksSyarat p{
+        font-size: 11px;
+        margin-left: 0px;
+        margin-top: -45px;
+    }
+
+
+    /* TOMBOL REGISTER */
+    .tombolRegisterDua{
+        margin-top: 20px;
+    }
+    
+}
+
+@media (min-width: 768px){
+    
+    .uploadFileLogo{
+        margin-left: 0px;
+    }
+
+
+    .aturanUpload{
+        width: 180px;
+        height: 100px;
+    }
+    
+    .aturanUpload p{
+        padding: 30px 0 70px 14px;
+        line-height:20px; 
+        margin-left: 0px;
+    }
+
+    /* TEKS SYARAT */
+    .kotakKecil{
+        width: 14px;
+        height: 14px;
+        border-radius: 2px;
+        background: #C4C4C4;
+        margin-left: -10px;
+        margin-top: 0px;
+        display: inline-block;
+    }
+    
+    .teksSyarat{
+        height: 0;
+        margin: 0px;
+        padding-top: 0px;
+    }
+    
+    .teksSyarat p{
+        margin: 0;
+        margin-left: -20px;
+        margin-top: 0px;
+    }
+
+    .tombolRegisterDua{
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 992px){
+
+    .uploadFileLogo{
+        width: 200px;
+        height: 200px;
+        padding: 0;
+    }
+    
+    .uploadFileLogo img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .uploadFileLogo p{
+        position: relative;
+        text-align: center;
+        margin: -40px 0 0 0;
+    }
+    
+    .aturanUpload{
+        width: 280px;
+        height: 200px;
+    }
+    
+    .aturanUpload p{
+        color: #000;
+        padding: 70px 0 70px 14px;
+        line-height: 120%; 
+    }
+
+
+
+    /* TEKS SYARAT */
+    .kotakKecil{
+        width: 14px;
+        height: 14px;
+        border-radius: 2px;
+        background: #C4C4C4;
+        margin-left: -10px;
+        display: inline-block;
+        margin-top: 0px;
+    }
+    
+    .teksSyarat{
+        height: 0;
+        margin: 0px;
+        padding-top: 3px;
+    }
+    
+    .teksSyarat p{
+        color: #071424;
+        line-height: normal;
+        margin: 0;
+        margin-left: -30px;
+     }
+
+}
+
+@media (min-width: 1200px){
+    
+    .aturanUpload{
+        width: 380.366px;
+        height: 200px;
+    }
+    
+    .aturanUpload p{
+        padding: 70px 0 70px 14px;
+        line-height: 120%; 
+    }
+
+
+    /* TEKS SYARAT */
+    .kotakKecil{
+        width: 14px;
+        height: 14px;
+        border-radius: 2px;
+        background: #C4C4C4;
+        margin-left: -10px;
+        display: inline-block;
+    }
+    
+    .teksSyarat{
+        height: 0;
+        margin: 0px;
+        padding-top: 3px;
+    }
+    
+    .teksSyarat p{
+        color: #071424;
+        line-height: normal;
+        margin: 0;
+        margin-left: -40px;
+    }
+
+    .tentangPerusahaan{
+        width: 830px;
+    }
+}
